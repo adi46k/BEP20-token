@@ -349,8 +349,8 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = {{SOSIALITY}};
-    _symbol = {{SOS}};
+    _name = {{LEGION5}};
+    _symbol = {{LEG5}};
     _decimals = {{8}};
     _totalSupply = {{10000000000000000}}; // 100 million
     _balances[msg.sender] = _totalSupply;
